@@ -14,6 +14,7 @@ We used logic of generating a random number with the following conditions: </p>
   <li>Node3 - hosting >= 50 && hosting <= 74 </li>
   <li>Node 4 - hosting >= 75 </li>
 </ul>
+![](/image/Figure1.png)
 <p>In figure 1 we can see that this node can become host as well as agent.</p>
 
 <p>After deciding host, nodes sends acknowledgement to join the platoon, if host receives more than two acknowledgements the platoon is successful otherwise it is declared as not possible we have shown this as platoon failure.</p>
@@ -24,7 +25,7 @@ We used logic of generating a random number with the following conditions: </p>
 
 <p>Figure 5 Host is Node 2 and platoon is success because only one car sends Alert and 2 cars send acknowledge that why platoon success value is 2 and platoon failure value is 1</p>
 
-<h2>Following objectives are covered in this project.</p>
+<h2>Following objectives are covered in this project.</h2>
 
 <ul>
   <li>Model the described system with k = 4 cars, with m =2 (so platoons can be made of 2,3,4 cars): model each node of the distributed system with a statechart, and the whole system as a combination of statecharts.</li> 
