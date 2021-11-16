@@ -14,15 +14,24 @@ We used logic of generating a random number with the following conditions: </p>
   <li>Node3 - hosting >= 50 && hosting <= 74 </li>
   <li>Node 4 - hosting >= 75 </li>
 </ul>
-![](/image/Figure1.png)
+<img src="image/Figure1.png">
+<h3>Figure 1</h3>
 <p>In figure 1 we can see that this node can become host as well as agent.</p>
 
+<img src="image/Figure-2-host-logic.png">
+<h3>Figure 2</h3>
 <p>After deciding host, nodes sends acknowledgement to join the platoon, if host receives more than two acknowledgements the platoon is successful otherwise it is declared as not possible we have shown this as platoon failure.</p>
 
+<img src="image/Figure-3-agend-logic.png">
+<h3>Figure 3</h3>
 <p>In figure 3 you can see that agent can send acknowledgment if probability is more than 50 (P>50) otherwise it will send alert that it will not join platoon.</p>
 
+<img src="image/Figure-4-Node1Host.png">
+<h3>Figure 4</h3>
 <p>Figure 4 Host is Node 1 but platoon is failure because only one car sends Acknowledge and 2 cars send alert that why platoon failure value is 2 and platoon success value is 1</p>
 
+<img src="image/Figure-5-Node2Host.png">
+<h3>Figure 5</h3>
 <p>Figure 5 Host is Node 2 and platoon is success because only one car sends Alert and 2 cars send acknowledge that why platoon success value is 2 and platoon failure value is 1</p>
 
 <h2>Following objectives are covered in this project.</h2>
