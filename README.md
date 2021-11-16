@@ -45,7 +45,6 @@ We used logic of generating a random number with the following conditions: </p>
       <li>- (uniqueness) it is not possible that two pools form with two different destination.</li> 
     </ul>
   </li>
-  <li>Release the single coordinator assumption (A6). Any car can act as a coordinator, starting an agreement run for its destination. Uniqueness can be lost in this case.</li>
   </ul>
 
 
